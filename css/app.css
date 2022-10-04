@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("bg01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+}
+
+.main_sec {
+  position: absolute;
+  top: 40%;
+  left: 9%;
+  width: 80%;
+}
+.main_sec h1,
+.main_sec p {
+  display: none;
+}
+
+#hello {
+  display: none;
+  color: #1cb495;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+
+.logos {
+  display: flex;
+}
+.logos img {
+  width: 20px;
+  height: 20px;
+  padding: 0 3px;
+}
+
+footer {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  bottom: 2%;
+  margin-left: 20px;
+}
+
+.last {
+  color: rgb(148, 148, 148);
+  font-size: small;
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid rgba(193, 193, 193, 0.562);
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  font-weight: bolder;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 91.5%;
+}
+
+.btn {
+  background-color: #1cb495;
+  color: white;
+  border: 1px solid #1cb495;
+  border-radius: 6px;
+  font-weight: bolder;
+  padding: 10px;
+  display: block;
+  width: 97.5%;
+}
+.btn:hover {
+  transform: scale(1.01);
+}
+
+.in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 552px) {
+  .main_sec {
+    top: 32%;
+  }
+  .main_sec h1,
+.main_sec .par {
+    display: block;
+    color: white;
+    padding: 0 0 10px 10px;
+  }
+  .main_sec h1 {
+    font-size: 75px;
+    margin-bottom: 0;
+  }
+  .main_sec .par {
+    color: rgba(193, 193, 193, 0.562);
+    line-height: 0.1px;
+  }
+  .main_sec span {
+    text-decoration: underline;
+  }
+  .main_sec div {
+    padding-top: 5px;
+    display: inline;
+  }
+  .main_sec div input,
+.main_sec div button {
+    margin-left: 10px;
+    display: inline;
+    width: 200px;
+  }
+  .main_sec div button {
+    width: 100px;
+  }
+  footer {
+    padding-left: 20px;
+  }
+}/*# sourceMappingURL=app.css.map */

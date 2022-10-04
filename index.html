@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main_sec">
+            <h1>Eventually</h1>
+            <p class="par">
+                A simple template for telling the world when you will launch
+                <br />
+            </p>
+            <p class="par">
+                your next big thing. Brought to you by <span>HTML5 UP</span>.
+            </p>
+            <div class="in">
+                <input type="email" placeholder="Email Address" />
+                <button type="submit" onclick="display()" id="btn" class="btn">
+            Sign Up</button
+          ><br />
+        </div>
+        <hello id="hello">Thank you!</hello>
+      </div>
+      <footer>
+        <div class="logos">
+          <img src="icons/twitter.svg" alt="" />
+          <img src="icons/instagram.svg" alt="" />
+          <img src="icons/github.svg" alt="" />
+          <img src="icons/mail.svg" alt="" />
+        </div>
+        <div class="last">
+          <p>&copy; United. | Credits: Unsplash + Icons8</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const display = () => {
+        document.getElementById("hello").style.display = "block";
+      };
+    </script>
+  </body>
+</html>
